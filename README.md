@@ -1,0 +1,13 @@
+# Calculo-de-ano-em-python
+
+nome=input("Digite seu nome:")
+idade=int(input("Digite sua idade:"))
+print (nome, "você nasceu em: ",2023-idade)
+ano=int(2023-18)
+saldo=float(input("saldo:"))
+print(nome, "o seu saldo é",saldo)
+per=int(input("Digite o percentual: "))
+print(f"seu saldo com {per} é:",saldo*per/100+saldo)
+print(f"Você {nome} que nasceu em {ano} terá um saldo de {per}% a mais, que será de R$ {saldo*per/100+saldo} ")
+
+
